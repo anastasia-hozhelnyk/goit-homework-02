@@ -123,7 +123,6 @@ ul, ol {
 .features-item-text {
     color: #434455;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.02em;
 }
@@ -168,7 +167,6 @@ ul, ol {
     color: #434455;
     text-align: center;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.02em;
 }
@@ -233,7 +231,6 @@ ul, ol {
 .footer-text {
     color: #F4F4FD;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.02em;
 }
