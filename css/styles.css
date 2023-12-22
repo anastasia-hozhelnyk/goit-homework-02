@@ -13,13 +13,7 @@ ul, ol {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
-    border: 0;
-    padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -71,7 +65,7 @@ ul, ol {
 
 /*------------HERO--------------*/
 .hero {
-    
+    background:#2E2F42;
 }
 
 .hero-title {
@@ -85,14 +79,20 @@ ul, ol {
 }
 
 .hero-btn {
+    background: #4D5AE5;
     color: #FFF;
-    font-family: Roboto;
+    font-family: inherit;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.04em;
     cursor: pointer;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
 }
 
 /*-----------FEATURES-----------*/
@@ -132,12 +132,16 @@ ul, ol {
 }
 
 /*-----------------TEAM-------*/
+.team {
+    background:#F4F4FD;
+}
+
 .team-title {
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1em;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -147,7 +151,9 @@ ul, ol {
 }
 
 .team-item {
-
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-img {
@@ -155,6 +161,7 @@ ul, ol {
 }
 
 .team-item-title {
+    
     color: #2E2F42;
     text-align: center;
     font-size: 20px;
@@ -180,7 +187,7 @@ ul, ol {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1em;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -206,12 +213,15 @@ ul, ol {
 }
 
 .portfolio-item-text {
-
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*----------FOOTER---------*/
 .footer {
-
+background:#2E2F42;
 }
 
 .logo {
@@ -225,7 +235,7 @@ ul, ol {
 }
 
 .logo-part {
-    color: #2E2F42;
+    color: #F4F4FD;
 }
 
 .footer-text {
