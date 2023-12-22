@@ -92,7 +92,7 @@ ul, ol {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 /*-----------FEATURES-----------*/
@@ -232,7 +232,7 @@ background:#2E2F42;
     text-transform: uppercase;
 }
 
-.logo-part {
+.footer-logo-part {
     color: #F4F4FD;
 }
 
